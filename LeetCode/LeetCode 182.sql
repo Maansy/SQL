@@ -13,4 +13,4 @@ WHERE per1.email = per2.email;
 SELECT email
 FROM Person
 GROUP BY email
-HAVING COUNT(id) > 1
+HAVING COUNT(id) > 1;

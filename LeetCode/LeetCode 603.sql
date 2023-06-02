@@ -8,4 +8,4 @@ FROM
 LAG(free) OVER(ORDER BY seat_id) AS previous_seat 
 FROM Cinema) AS subquery
 WHERE (subquery.free = 1 AND subquery.next_seat =1) OR (subquery.free = 1 AND subquery.previous_seat =1)
-ORDER BY seat_id
+ORDER BY seat_id;
