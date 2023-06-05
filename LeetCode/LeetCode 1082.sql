@@ -1,6 +1,6 @@
 -- Sales analysis I
 
---table1 (Product) columns (product_id, product_name,unit_price)
+--table1 (Product) columns (product_id 'PK', product_name,unit_price)
 --table2 (Sales) columns (seller_id, product_id, buyer_id, sale_date, quantity, price)
 
 SELECT saller_id
